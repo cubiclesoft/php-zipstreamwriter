@@ -74,7 +74,7 @@ Download/clone this repo, put the 'support' directory on a server, and then do s
 
 
 	// Generate and compress larger files in chunks.
-	$zip->InitFile("dir/Hello2.txt", $options);
+	$zip->OpenFile("dir/Hello2.txt", $options);
 
 	$zip->AppendFileData("Hello ");
 	if ($zip->BytesAvailable() > 65536)  echo $zip->Read();

@@ -109,7 +109,7 @@ Note that any directory structure referenced by the $filename should be specifie
 
 The following $options are reserved:  64bit, crc32, uncompressed_size, compressed_size, bytes_left, filename, disk_start_num, header_offset.
 
-ZipStreamWriter::InitFile($filename, $options = array(), $compresslevel = -1)
+ZipStreamWriter::OpenFile($filename, $options = array(), $compresslevel = -1)
 -----------------------------------------------------------------------------
 
 Access:  public

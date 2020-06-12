@@ -312,7 +312,7 @@
 			return $this->CloseFile();
 		}
 
-		public function InitFile($filename, $options = array(), $compresslevel = -1)
+		public function OpenFile($filename, $options = array(), $compresslevel = -1)
 		{
 			if (!$this->open)  return false;
 
