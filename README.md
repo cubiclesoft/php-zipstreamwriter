@@ -47,7 +47,7 @@ Download/clone this repo, put the 'support' directory on a server, and then do s
 
 
 	// Add smaller files with a simple call.
-	$zip->AddFileFromString("dir/ Hello.txt", "Hello there!", array());
+	$zip->AddFileFromString("dir/ Hello.txt", "Hello there!", array("last_modified" => $lastmodified));
 
 	// Keep RAM usage low by streaming data.  Just call Read() whenever to clear out the internal buffer.
 	echo $zip->Read();
