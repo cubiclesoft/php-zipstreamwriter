@@ -92,7 +92,7 @@ Download/clone this repo, put the 'support' directory on a server, and then do s
 	echo $zip->Read();
 ```
 
-See the [ZipStreamWriter::InitCentralDirHeader() function](docs/zip_stream_writer.md#zipstreamwriterinitcentraldirheaderoptions--array-dostype--zipstreamwriterfile_attribute_msdos_archive) documentation for a complete list of options.
+See the [ZipStreamWriter::InitCentralDirHeader()](docs/zip_stream_writer.md#zipstreamwriterinitcentraldirheaderoptions--array-dostype--zipstreamwriterfile_attribute_msdos_archive) documentation for a complete list of options.
 
 Documentation
 -------------
