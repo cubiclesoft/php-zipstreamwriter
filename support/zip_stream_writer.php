@@ -259,7 +259,7 @@
 		// For smaller files, it is possible to add the whole thing at once.
 		public function AddFileFromString($filename, $data, $options = array(), $compresslevel = -1)
 		{
-			if (!$this->open)  return false;
+			if (!$this->open || !is_string($data))  return false;
 
 			// Close an open file.
 			$this->CloseFile();
