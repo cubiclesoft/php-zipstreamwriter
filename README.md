@@ -3,7 +3,7 @@ ZipStreamWriter for PHP
 
 A fast, efficient streaming library for creating ZIP files on the fly in pure userland PHP without any external tools, PHP extensions, or physical disk storage requirements.  Follows version 6.3.7 of the PKWARE Zip specification.  Choose from a MIT or LGPL license.
 
-[![Donate](https://cubiclesoft.com/res/donate-shield.png)](https://cubiclesoft.com/donate/)
+[![Donate](https://cubiclesoft.com/res/donate-shield.png)](https://cubiclesoft.com/donate/) [![Discord](https://img.shields.io/discord/777282089980526602?label=chat&logo=discord)](https://cubiclesoft.com/product-support/github/)
 
 If you use this project, don't forget to donate to support its development!
 
