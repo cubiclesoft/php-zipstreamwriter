@@ -107,7 +107,7 @@ Limitations
 The following limitations are ordered from most important to least:
 
 * Some tools that read ZIP files don't support Zip64 or streaming Zip64 extra fields.  Any files of a declared unknown uncompressed size (`uncompressed_size` = -1) or specified as over 2GB without a 64-bit declaration enables Zip64 for that file.
-* Some tools that read ZIP files don't support Zip64 directory information.  The ZipStreamWriter class always creates a Zip64 End of Central Directory record and locator when more that 65,535 directories/files (total) are put into a single ZIP file.
+* Some tools that read ZIP files don't support Zip64 directory information.  The ZipStreamWriter class always creates a Zip64 End of Central Directory record and locator when more than 65,535 directories/files (total) are put into a single ZIP file.
 * No encryption support, including password protection.  Some parts of the specification allude to proprietary, patented technology by PKWARE, Inc.
 * Only the Store (0x0000, uncompressed) and Deflate (0x0008) compression methods are both supported and implemented.
 * Deflate compression is only available if zlib stream filter support is compiled into PHP.  The class automatically falls back to the Store method if zlib stream filtering is not available or is broken.  Support for Deflate compression can be verified by calling `ZipStreamWriter::IsDeflateSupported()`.
